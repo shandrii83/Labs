@@ -4,9 +4,8 @@
   padding: 0;
 } 
 
-
 body {
-  font:Roboto;
+  font: Roboto;
   font-size: 10px;
   line-height: 3.5em;
   font-weight: 300;
@@ -70,7 +69,7 @@ h5 {
   background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 .quote {
