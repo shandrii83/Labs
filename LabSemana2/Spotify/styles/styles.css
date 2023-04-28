@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.bara{
+  position: relative;
+  height: 3em;
+   padding: 20px;
+    margin: 20px; 
+}
+.nav-bar{
+    
+    height: 2em;
+    
+    padding-top: 20px ;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: 20px;
+/* background-color: white; */
+    display: flex;
+    flex-direction: column;
+     background-image: url(/image/spotify-logo.png); 
+   background-repeat: no-repeat;
+    background-position:left;
+    background-size: contain; 
+    }
+.Links a:hover {
+    color: red;
+}
+
+.Links {
+    list-style: none;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+.Links a {
+
+    align-content: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    }
+
+.Parafo {
+    color: white;
+    margin: auto;
+    font-size: large;
+    background-image: url(/image/landing.jpg);
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+
+    
+
+
+}
+
+span {
+    font-size: 50px;
+}
+
+.Parafo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.Title{
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #00B172;
+    display: flex;
+    justify-content: space-around;}
+.Offers {  
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+.Offers h4{
+
+    font-size: x-large;
+
+
+}
+.Songs{
+    padding: 30px;
+    margin: 30px;
+    background-image: url(/image/music-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.Music{
+    padding: 30px;
+    margin: 30px;
+    background-image: url(/image/high-quality-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.Steam{
+    padding: 30px;
+    margin: 30px;
+background-image: url(/image/devices-icon.png);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.Offers a{
+    text-decoration: none;
+    color: #00B172;
+}
+.Offers a:hover{
+    color: rgb(0, 255, 0);
+}
+
+.Verde{
+   padding: 2em;
+   margin: 2em;
+   padding-left: 0;
+   background-color: #00B172;
+    color: #FFF ;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.Title2{
+
+    padding: 2em;
+    padding-left: 0;
+    margin: auto;
+    font-size: x-large;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #FFF;
+}
+.logoBlanco{
+    padding: 30px;
+    margin:30px;
+    background-image: url(/image/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+.SpotifyApp{
+    vertical-align:middle;
+    padding: 30px;
+    margin: 30px;
+    background-image: url(/image/spotify-app.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing: content-box;
+}
+.Verde p{
+    padding: 20px 20px 20px 0px ; 
+  
+} 
