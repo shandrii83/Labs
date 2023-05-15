@@ -78,7 +78,7 @@ function createProduct() {
     let = parentCont = document.querySelector("#cart tbody ");
     parentCont.appendChild(newTableRow);
 
-    let removeBtn = newTableRow.querySelector("btn-remove");
+    let removeBtn = newTableRow.querySelector(".btn-remove");
     removeBtn.addEventListener('click', removeProduct);
 
     /* limpiar imputs */
